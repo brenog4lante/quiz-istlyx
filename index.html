@@ -1,0 +1,34 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual o seu pet?</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1 id="main-title">Qual pet(Istlyx) você teria em Trono de Sombras?</h1>
+        
+        <div id="quiz">
+            <h2 id="question-text"></h2>
+            <div id="options-container" class="options-container">
+                </div>
+            <button id="next-button" onclick="nextQuestion()">Próxima Pergunta</button>
+        </div>
+
+       
+        <div id="result-container" class="result-container" style="display:none;">
+    <h2 id="result-title"></h2>
+    
+    <img id="pet-image" src="" alt="Seu Animal Aliado" class="pet-image"> 
+    
+    <p id="result-description"></p>
+    
+    <button onclick="restartQuiz()">Recomeçar</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
