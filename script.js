@@ -88,38 +88,38 @@ const questions = [
 const animalDescriptions = {
     Sumire: {
         title: "Sumire",
-        description: "Não se engane pela sua natureza doce: Sumire pode ser calma como um rio, mas se for irritada, ela se transforma em um maremoto indomável. Ela será sua melhor amiga leal e divertida, mas guarde o aviso: a paciência dela tem limites.\n\n" 
-        + "Como sua aliada, Sumire lhe concede o poder de controlar a água: crie bolhas mágicas ou um tsunami brutal, a escolha é sua. A chave para mantê-la feliz é uma boa dose de petiscos!",
+        description: `Não se engane pela sua natureza doce: Sumire pode ser calma como um rio, mas se for irritada, ela se transforma em um maremoto indomável. Ela será sua melhor amiga leal e divertida, mas guarde o aviso: a paciência dela tem limites.\n
+        Como sua aliada, Sumire lhe concede o poder de controlar a água: crie bolhas mágicas ou um tsunami brutal, a escolha é sua. A chave para mantê-la feliz é uma boa dose de petiscos!`,
     
         imageFile: 'sumire.png', 
     },
     Aspen: {
         title: "Aspen",
-        description: "Não subestime seu humor sarcástico: Aspen é inteligente, ardiloso e letal quando preciso. Ele adora uma piada, mas é muito perigoso no campo de batalha, Aspen molda as regras a seu favor e se necessário ele mesmo as quebra. Sua lealdade é absoluta, mas seja cauteloso ao cruzar o seu caminho, ela adora pregar peças.\n"
+        description: `Não subestime seu humor sarcástico: Aspen é inteligente, ardiloso e letal quando preciso. Ele adora uma piada, mas é muito perigoso no campo de batalha, Aspen molda as regras a seu favor e se necessário ele mesmo as quebra. Sua lealdade é absoluta, mas seja cauteloso ao cruzar o seu caminho, ela adora pregar peças.\n\n
 
-        + "Seu presente é o domínio das Sombras: um poder que permite a você não apenas camuflar, mas materializar a escuridão em armas afiadas ou armadilhas inesperadas.\n\n"
+        Seu presente é o domínio das Sombras: um poder que permite a você não apenas camuflar, mas materializar a escuridão em armas afiadas ou armadilhas inesperadas.\n\n"
 
-        + "Se quiser o conquistar, Asp ama doces, principalmente Carolinas frescas",
+        Se quiser o conquistar, Asp ama doces, principalmente Carolinas frescas`,
 
         imageFile: 'aspen.png', 
     },
     Breeze: {
         title: "Breeze",
-        description: "Não espere impulsividade dela. Breeze é racional, estrategista e profundamente justa. Ela é sua conselheira mais confiável, sempre calculando cada movimento para garantir o sucesso com o mínimo de risco. Sua amizade é uma aliança baseada na lógica e na lealdade. Ela espera de você o mesmo nível de seriedade e precisão.\n\n"
+        description: `Não espere impulsividade dela. Breeze é racional, estrategista e profundamente justa. Ela é sua conselheira mais confiável, sempre calculando cada movimento para garantir o sucesso com o mínimo de risco. Sua amizade é uma aliança baseada na lógica e na lealdade. Ela espera de você o mesmo nível de seriedade e precisão.\n\n
 
-        + "Seu presente é o domínio dos Ventos: um poder que permite a você não apenas voar, mas criar escudos, propelir objetos ou desviar projéteis com a precisão de um raio laser. Crie uma brisa agradável ou um tornado, ela não ira te impedir.zn\n\n"
+        Seu presente é o domínio dos Ventos: um poder que permite a você não apenas voar, mas criar escudos, propelir objetos ou desviar projéteis com a precisão de um raio laser. Crie uma brisa agradável ou um tornado, ela não ira te impedir.\n\n"
 
-        + "Breeze valoriza o que é prático e delicioso. E por isso sua comida favorita são uvas sem sementes.",
+        Breeze valoriza o que é prático e delicioso. E por isso sua comida favorita são uvas sem sementes.`,
 
         imageFile: 'breeze.png', 
     },
     Kaen: {
         title: "Kaen",
-        description: "Não espere gentileza. Kaen é agressivo, e sua paciência é tão curta quanto um fósforo aceso. Ele é um fardo de fúria e poder, mas por baixo das escamas, ele é profundamente leal aos poucos que ele escolhe proteger. Ele será seu guardião, mas exigirá de você uma coragem inabalável\n\n"
+        description: `Não espere gentileza. Kaen é agressivo, e sua paciência é tão curta quanto um fósforo aceso. Ele é um fardo de fúria e poder, mas por baixo das escamas, ele é profundamente leal aos poucos que ele escolhe proteger. Ele será seu guardião, mas exigirá de você uma coragem inabalável\n\n
 
-        + "Seu presente é o domínio do Fogo: um poder que permite a você não apenas incinerar, mas materializar chamas em escudos de magma, criar explosões controladas ou forjar armas incandescentes.\n\n"
+        Seu presente é o domínio do Fogo: um poder que permite a você não apenas incinerar, mas materializar chamas em escudos de magma, criar explosões controladas ou forjar armas incandescentes.\n\n
 
-        + "Ele respeita quem não recua, mas tem uma fraqueza: salgadinhos de pernil! Mantenha esse dragão sempre com seu petisco favorito para evitar o calor de sua impaciência.",
+        Ele respeita quem não recua, mas tem uma fraqueza: salgadinhos de pernil! Mantenha esse dragão sempre com seu petisco favorito para evitar o calor de sua impaciência.`,
         
         imageFile: 'kaen.png', 
 }
