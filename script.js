@@ -88,10 +88,10 @@ const questions = [
 const animalDescriptions = {
     Sumire: {
         title: "Sumire",
-        description: "Não se engane pela sua natureza doce: Sumire pode ser calma como um rio, mas se for irritada, ela se transforma em um maremoto indomável. Ela será sua melhor amiga leal e divertida, mas guarde o aviso: a paciência dela tem limites.\nzn" 
+        description: "Não se engane pela sua natureza doce: Sumire pode ser calma como um rio, mas se for irritada, ela se transforma em um maremoto indomável. Ela será sua melhor amiga leal e divertida, mas guarde o aviso: a paciência dela tem limites.\n\n" 
         + "Como sua aliada, Sumire lhe concede o poder de controlar a água: crie bolhas mágicas ou um tsunami brutal, a escolha é sua. A chave para mantê-la feliz é uma boa dose de petiscos!",
     
-        imageFile: 'sumire.png', // <-- ADICIONADO
+        imageFile: 'sumire.png', 
     },
     Aspen: {
         title: "Aspen",
@@ -101,7 +101,7 @@ const animalDescriptions = {
 
         + "Se quiser o conquistar, Asp ama doces, principalmente Carolinas frescas",
 
-        imageFile: 'aspen.png', // <-- ADICIONADO
+        imageFile: 'aspen.png', 
     },
     Breeze: {
         title: "Breeze",
@@ -111,7 +111,7 @@ const animalDescriptions = {
 
         + "Breeze valoriza o que é prático e delicioso. E por isso sua comida favorita são uvas sem sementes.",
 
-        imageFile: 'breeze.png', // <-- ADICIONADO
+        imageFile: 'breeze.png', 
     },
     Kaen: {
         title: "Kaen",
@@ -121,7 +121,7 @@ const animalDescriptions = {
 
         + "Ele respeita quem não recua, mas tem uma fraqueza: salgadinhos de pernil! Mantenha esse dragão sempre com seu petisco favorito para evitar o calor de sua impaciência.",
         
-        imageFile: 'kaen.png', // <-- ADICIONADO
+        imageFile: 'kaen.png', 
 }
 };
 

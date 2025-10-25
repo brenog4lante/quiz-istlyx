@@ -2,11 +2,10 @@
 body {
     font-family: 'Arial', sans-serif;
     background-image: url('pets.jpeg'); 
-    background-size: cover; /* Faz a imagem cobrir todo o fundo */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    background-attachment: fixed; /* Fixa a imagem no fundo ao rolar a página */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     background-position: center center;
-    /*background: linear-gradient(135deg, #1f1c2c, #928dab); /* Gradiente escuro e elegante */
     color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -17,15 +16,16 @@ body {
 }
 
 body::after {
-    content: ''; /* Essencial para pseudoelementos */
-    position: absolute; /* Permite posicionar o overlay */
+    content: ''; 
+    background-size: cover;
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: black;
     opacity: 0.6; /* <-- AQUI VOCÊ CONTROLA A TRANSPARÊNCIA (0.0 é transparente, 1.0 é opaco) */
-    z-index: -1; /* Garante que o overlay fique atrás do conteúdo (quiz-container) */
+    z-index: -1; 
 }
 /* Container Principal do Quiz */
 .quiz-container {
